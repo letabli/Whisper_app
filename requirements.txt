@@ -1,0 +1,23 @@
+# Whisper 자막 변환 도구 v2.0 - 의존성 목록
+
+# Core AI/ML
+openai-whisper>=20230314
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# GUI
+PyQt5>=5.15.0
+
+# Text Processing
+nltk>=3.8.0
+sumy>=0.11.0
+
+# Translation
+googletrans==4.0.0rc1
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Optional: For better performance
+# accelerate>=0.20.0  # Hugging Face accelerate
+# ffmpeg-python>=0.2.0  # For audio preprocessing
